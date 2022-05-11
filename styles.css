@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  background-image: url("images/DRUM.jpeg");
+
+}
+
+h1 {
+  font-size: 6rem;
+  color: #C0D8C0;
+  font-family: "bold", inherit;
+  text-shadow: 3px 0 #F9D923;
+
+
+}
+
+footer {
+  color: #F3E9DD;
+  font-family: sans-serif;
+}
+
+
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+
+.drum {
+
+
+  line-height: 2;
+  font-weight: 900;
+  color: #251D3A;
+  font-size: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  background: linear-gradient(#C0D8C0, white,#06113c);
+  transition: background 0.5s;
+
+}
+
+.drum:hover{
+  color: #255784;
+  background: #F9D293;
+  box-shadow: 0 0 10px #F9D923, 0 0 40px #F9D293, 0 0 80px #F9D293;
+}
